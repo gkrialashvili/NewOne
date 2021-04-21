@@ -5518,6 +5518,8 @@ button.btn-white:hover {
 	vertical-align: middle;
 	width: 74px;
 }
+
+
 .play_btn::before {
 	 -webkit-animation: rounded 2.5s infinite ;
 	-moz-animation: rounded 2.5s infinite ;
