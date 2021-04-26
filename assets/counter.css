@@ -316,6 +316,7 @@
   font-weight: 500;
   padding: 25px 0 0 0;
   text-transform: uppercase;
+  top: -55px;
 }
 
 .progress-hcap > div:after,
@@ -323,20 +324,20 @@
 .progress-psale > div:after,
 .progress-percent > div:after {
   position: absolute;
-  top: 0;
+  margin-top: 5px;
   left: 50%;
   margin-left: -2px;
   width: 2px;
   height: 20px;
   content: "";
-  background: rgba(78, 92, 110, 0.3);
+  background: rgba(255, 255, 255, 0.3);
+  top: 33px;
 }
 
 .progress-hcap > div span,
 .progress-scap > div span,
 .progress-psale > div span,
 .progress-percent > div span {
-  display: block;
   color: #495463;
 }
 
